@@ -4,7 +4,7 @@
   "description": "A complete user interface for routing within an OpenLayers map",
   "main": "index.js",
   "scripts": {
-    "dev": "mkdirp dist && rollup -c -w",
+    "dev": "mkdir dist && rollup -c -w",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -34,4 +34,5 @@
   "peerDependencies": {
     "openlayers": "^4.6.4"
   }
+  
 }

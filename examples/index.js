@@ -6,14 +6,17 @@ var map = new ol.Map({
   ],
   target: 'map',
   view: new ol.View({
-    center: ol.proj.fromLonLat([11.94, 57.7]),
+    //source destination
+    center: ol.proj.fromLonLat([77.50, 12.99]),
     zoom: 12
   })
 }); 
 
+//changing co-ordinates
+//add exception handling for invalid coordinates 
 var waypoints = [
-  [11.94, 57.74],
-  [11.949, 57.6792]
+  [77.50, 12.99],
+  [77.5354, 12.9756]
 ]
 var control = new olrm.Control({
   map,
